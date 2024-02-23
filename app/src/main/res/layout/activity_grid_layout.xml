@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="6"
+    android:columnCount="4"
+    android:padding="25dp">
+
+    <EditText
+        android:layout_width="360dp"
+        android:layout_columnSpan="4"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/grey"
+        android:hint="0"
+        android:minHeight="48dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_row="1"
+        android:layout_column="0"
+        android:backgroundTint="@color/grey"
+        android:text="1" />
+
+    <Button
+        android:layout_row="1"
+        android:layout_column="1"
+        android:backgroundTint="@color/grey"
+        android:text="2" />
+
+    <Button
+        android:layout_row="1"
+        android:layout_column="2"
+        android:backgroundTint="@color/grey"
+        android:text="3" />
+
+    <Button
+        android:layout_row="1"
+        android:layout_column="3"
+        android:backgroundTint="@color/violet"
+        android:text="/" />
+
+    <Button
+        android:layout_row="2"
+        android:layout_column="0"
+        android:backgroundTint="@color/grey"
+        android:text="4" />
+
+    <Button
+        android:layout_row="2"
+        android:layout_column="1"
+        android:backgroundTint="@color/grey"
+        android:text="5" />
+
+    <Button
+        android:layout_row="2"
+        android:layout_column="2"
+        android:backgroundTint="@color/grey"
+        android:text="6" />
+
+    <Button
+        android:layout_row="2"
+        android:layout_column="3"
+        android:backgroundTint="@color/violet"
+        android:text="*" />
+
+    <Button
+        android:layout_row="3"
+        android:layout_column="0"
+        android:backgroundTint="@color/grey"
+        android:text="7" />
+
+    <Button
+        android:layout_row="3"
+        android:layout_column="1"
+        android:backgroundTint="@color/grey"
+        android:text="8" />
+
+    <Button
+        android:layout_row="3"
+        android:layout_column="2"
+        android:backgroundTint="@color/grey"
+        android:text="9" />
+
+    <Button
+        android:layout_row="3"
+        android:layout_column="3"
+        android:backgroundTint="@color/violet"
+        android:text="-" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_columnSpan="2"
+        android:backgroundTint="@color/grey"
+        android:text="0" />
+
+    <Button
+        android:layout_row="4"
+        android:layout_column="2"
+        android:backgroundTint="@color/black"
+        android:text="=" />
+
+    <Button
+        android:layout_row="4"
+        android:layout_column="3"
+        android:backgroundTint="@color/violet"
+        android:text="+" />
+
+    <Button
+        android:layout_width="360dp"
+        android:layout_columnSpan="4"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/dark_violet"
+        android:onClick="onMyButtonClick4"
+        android:text="@string/click_on_me" />
+
+
+</GridLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application Java 4</string>
+    <string name="i_m_left">I\'m left</string>
+    <string name="i_m_center">I\'m center</string>
+    <string name="i_m_right">I\'m right</string>
+    <string name="left_top">Left Top</string>
+    <string name="i_m_empty_sorry">I\'m empty, sorry</string>
+    <string name="right_top">Right Top</string>
+    <string name="left_bottom">Left Bottom</string>
+    <string name="right_bottom">Right Bottom</string>
+    <string name="your_task">Your task</string>
+    <string name="boring_margin">Boring margin</string>
+    <string name="click_on_me">Click on me</string>
+</resources>
